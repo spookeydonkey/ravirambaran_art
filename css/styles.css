@@ -23,6 +23,12 @@ a.home:active {
   border-bottom: 1px rgb(100, 153, 100);
 }
 
+header {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1400px;
+}
+
 .site-header {
   font-family: "Libre Baskerville", serif;
   border-bottom: 1px rgb(32, 49, 32) dotted;
@@ -128,7 +134,9 @@ a.home:active {
 .site-main {
   border: 1px 0px 0px 1px dotted;
   padding: 10px 10px 0px 10px;
-  margin: 0px;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1400px;
   grid-area: main;
   text-align: center;
 }
@@ -158,6 +166,9 @@ voor een afbeelding gallery */
 .gallery-1 {
   padding: 1px;
   display: grid;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1400px;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: 300px;
@@ -261,8 +272,10 @@ voor een afbeelding gallery */
 
 .site-footer {
   border-top: 1px dotted;
-  margin-top: 10px;
   padding: 0px;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1400px;
   grid-area: footer;
   display: flex;
   flex-direction: row;
