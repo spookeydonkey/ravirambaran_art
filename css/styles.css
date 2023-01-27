@@ -307,28 +307,17 @@ voor een afbeelding gallery */
   .site-menu {
     display: none;
   }
-}
-
-@media (min-width: 768px) {
   .selfie {
     width: 500px;
     padding-left: 50%;
   }
-}
-
-@media (min-width: 768px) {
   .section {
     padding-right: 25%;
     margin-bottom: 20%;
   }
-}
-
-@media (min-width: 768px) {
   .form {
     margin-bottom: 20%;
   }
-}
-@media (min-width: 768px) {
   .site-footer > div {
     margin: 10px;
   }
