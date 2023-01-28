@@ -100,32 +100,26 @@ header {
   max-width: 1400px;
 }
 
-.site-header {
+header h1 {
   font-family: "Libre Baskerville", serif;
   border-bottom: 1px rgb(32, 49, 32) dotted;
-  height: 1fr;
-  margin: 1px;
+  /* height: 1fr; */
+  margin: 0 auto;
   padding: 1px;
-  grid-area: header;
+  /* display: grid; */
+  /* grid-area: header; */
+  overflow: hidden;
   text-align: center;
+  max-width: 1400px;
 }
 
-.site-header p {
-  margin: 0px;
-  padding: 0px;
-}
-
-.site-header h1 {
-  margin: 0px;
-  padding: 0px;
-}
 /*--- main/gallery/hoofdelement wrapper  ---*/
 
 .site-wrapped {
   height: 100vh;
   width: 100vw;
   font-family: "Varela Round", sans-serif;
-  font: normal;
+  /* font: normal; variabele?*/
   color: rgb(32, 49, 32);
   display: grid;
   grid-template-columns: 1fr;
@@ -206,10 +200,10 @@ header {
   border: 1px 0px 0px 1px dotted;
   padding: 10px 10px 0px 10px;
   margin: 0 auto;
+  text-align: center;
   overflow: hidden;
   max-width: 1400px;
-  grid-area: main;
-  text-align: center;
+  grid-area: "main";
 }
 
 .section {
@@ -346,7 +340,7 @@ header {
   grid-area: footer;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .site-footer > div {
